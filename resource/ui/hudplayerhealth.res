@@ -116,9 +116,9 @@
 		"image"			"../hud/misc_ammo_area_horiz1_blue"
 		"scaleImage"	"1"
 		"teambg_2"		"../hud/misc_ammo_area_horiz1_red"
-		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
 		"teambg_3"		"../hud/misc_ammo_area_horiz1_blue"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"
+		"teambg_4"		"../hud/misc_ammo_area_horiz1_green"
+		"teambg_5"		"../hud/misc_ammo_area_horiz1_yellow"
 	}
 	"PlayerStatusBleedImage"
 	{

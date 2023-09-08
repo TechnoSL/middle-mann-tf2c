@@ -18,12 +18,12 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"25"
-		"ypos"			"r88"
+		"xpos"			"60"
+		"ypos"			"r138"
 		"zpos"			"2"
-		"wide"			"75"
+		"wide"			"90"
 		"wide_minbad"	"37"
-		"tall"			"75"
+		"tall"			"90"
 		"tall_minbad"	"37"
 		"visible"		"1"
 		"enabled"		"1"
@@ -34,9 +34,9 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
-		"xpos"			"3"		[$WIN32]
+		"xpos"			"9999"		[$WIN32]
 		"xpos_minbad"	"-5"	[$WIN32]
-		"ypos"			"r67"	[$WIN32]
+		"ypos"			"r47"	[$WIN32]
 		"ypos_minbad"	"r44"	[$WIN32]
 		"xpos"			"35"	[$X360]
 		"ypos"			"r89"	[$X360]
@@ -45,8 +45,8 @@
 		"wide_minbad"	"27"
 		"tall"			"55"
 		"tall_minbad"	"27"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/class_spyred"
 		"scaleImage"	"1"
 		"teambg_2"		"../hud/class_spyred"
@@ -76,17 +76,17 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"			"9"		[$WIN32]
+		"xpos"			"-1"		[$WIN32]
 		"xpos_minbad"	"-10"		[$WIN32]
-		"ypos"			"r60"	[$WIN32]
+		"ypos"			"9999"	[$WIN32]
 		"ypos_minbad"		"r40"	[$WIN32]
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"
 		"image"			"../hud/character_red_bg"
 		"teambg_2"		"../hud/character_red_bg"

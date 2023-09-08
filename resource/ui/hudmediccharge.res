@@ -11,10 +11,12 @@
 		"tall"			"150"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/medic_charge_blue_bg"
+		"image"			"../hud/misc_ammo_area_horiz3_blue"
 		"scaleImage"	"1"
 		"teambg_2"		"../hud/misc_ammo_area_horiz3_red"
 		"teambg_3"		"../hud/misc_ammo_area_horiz3_blue"
+		"teambg_4"		"../hud/misc_ammo_area_horiz3_green"
+		"teambg_5"		"../hud/misc_ammo_area_horiz3_yellow"
 		"alpha" 		"128"
 	}
 

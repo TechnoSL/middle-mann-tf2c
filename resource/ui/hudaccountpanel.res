@@ -22,7 +22,7 @@
 		"tall"			"28"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_blue"
+		"image"			"../hud/color_panel_brown"
 		"scaleImage"	"1"
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
