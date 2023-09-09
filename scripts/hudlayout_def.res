@@ -98,14 +98,11 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"cs-0.5" [$WIN32]
-		"xpos_minbad"		"r52" [$WIN32]
-		"ypos"				"300" [$WIN32]
-		"ypos_minbad"		"r40" [$WIN32]
+		"ypos"				"275" [$WIN32]
 		"xpos"				"r112" [$X360]
 		"ypos"				"r45" [$X360]
 		"zpos"				"1"
-		"wide"				"60"
-		"wide_minbad"		"50"
+		"wide"				"50"
 		"tall"				"6"
 		"MeterFG"			"White"
 		"MeterBG"			"Gray"
@@ -510,7 +507,7 @@
 		"CornerRadius"	  "3"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 
-		"TextFont"		"Default"
+		"TextFont"		"Verdana"
 
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"

@@ -680,6 +680,21 @@
 		"wide"			"30"
 		"tall"			"30"
 	}
+	"PlayerStatusCivilianBuff"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusCivilianBuff"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"			"../HUD/civilian_buff_blue"
+		"fgcolor"		"TanDark"
+	}
 	"LowHpLabel"
 	{
 		"ControlName"	"CExLabel"
