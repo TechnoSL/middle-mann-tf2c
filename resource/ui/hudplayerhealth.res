@@ -694,6 +694,9 @@
 		"scaleImage"	"1"
 		"image"			"../HUD/civilian_buff_blue"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling" "suckmydickvalve"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 	}
 	"LowHpLabel"
 	{

@@ -764,7 +764,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"EditLoadoutButton"
-		"xpos"			"9999"
+		"xpos"			"R180"
 		"ypos"			"r38"
 		"zpos"			"7"
 		"wide"			"150"
@@ -774,7 +774,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"&E"
+		"labelText"		"Edit Loadout (&E)"
 		"textAlignment"	"center"
 		"Command"		"openloadout"
 		"font"			"HudFontSmallBold"
