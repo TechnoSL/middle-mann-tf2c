@@ -730,9 +730,10 @@
 		"linespacing"	"17"
 		"textcolor"		"blue"
 
-		if_mvm
-		{
-			"visible"		"0"
+		"if_vip"
+ 		{
+			"ypos"			"97"
+			"tall"			"250"
 		}
 	}
 	"RedPlayerList"
@@ -762,9 +763,88 @@
 		"linespacing"	"17"
 		"textcolor"		"red"
 
- 		if_mvm
+		"if_vip"
  		{
- 			"visible"		"0"
+			"ypos"			"97"
+			"tall"			"250"
+		}
+	}
+	"VIP"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"VIP"
+		"font"			"HudFontMedium"
+		"labelText"		"#TF_Scoreboard_VIP"
+		"textAlignment"		"center"
+		"xpos"			"9999" // nuked...
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+
+		"if_vip"
+		{
+			"visible"	"1"
+		}
+	}
+	"RedVIPPlayerList"
+	{
+		"ControlName"	"SectionedListPanel"
+		"fieldName"		"RedVIPPlayerList"
+		"xpos"			"158"
+		"ypos"			"-48"
+		"zpos"			"20"
+		"wide"			"310"
+		"tall"			"32"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"autoresize"	"3"
+		"linespacing"	"18"
+		"linegap"		"5"
+		"fgcolor"		"red"
+		//"show_columns"	"1"
+
+		"if_vip_red"
+ 		{
+			"ypos"			"63"
+ 		}
+		"if_vipr"
+ 		{
+			"xpos"			"325"
+ 		}
+	}
+	"BlueVIPPlayerList"
+	{
+		"ControlName"	"SectionedListPanel"
+		"fieldName"		"BlueVIPPlayerList"
+		"xpos"			"158"
+		"ypos"			"-48"
+		"zpos"			"20"
+		"wide"			"310"
+		"tall"			"32"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"autoresize"	"3"
+		"linespacing"	"18"
+		"linegap"		"5"
+		"fgcolor"		"red"
+		//"show_columns"	"1"
+
+		"if_vip_blue"
+ 		{
+			"ypos"			"63"
+ 		}
+		"if_vipr"
+ 		{
+			"xpos"			"5"
  		}
 	}
 	"VerticalLine"
