@@ -56,7 +56,7 @@
 		"paintbackgroundtype" "0"
 		"bgcolor_override"	"G_TeamBlue"
 
-		if_mvm
+		if_vip
 		{
 			"visible"	"0"
 		}
@@ -83,7 +83,7 @@
 		"paintbackgroundtype" "0"
 		"bgcolor_override"	"TanLight"
 
-		if_mvm
+		if_vip
 		{
 			"visible"	"0"
 		}
@@ -110,7 +110,7 @@
 		"paintbackgroundtype" "0"
 		"bgcolor_override"	"TanLight"
 
-		if_mvm
+		if_vip
 		{
 			"visible"	"0"
 		}
@@ -137,7 +137,7 @@
 		"paintbackgroundtype" "0"
 		"bgcolor_override"	"TanLight"
 
-		if_mvm
+		if_vip
 		{
 			"visible"	"0"
 		}
@@ -164,7 +164,7 @@
 		"paintbackgroundtype" "0"
 		"bgcolor_override"	"TanLight"
 
-		if_mvm
+		if_vip
 		{
 			"visible"	"0"
 		}
@@ -191,7 +191,7 @@
 		"paintbackgroundtype" "0"
 		"bgcolor_override"	"TanLight"
 
-		if_mvm
+		if_vip
 		{
 			"visible"	"0"
 		}
@@ -218,7 +218,7 @@
 		"paintbackgroundtype" "0"
 		"bgcolor_override"	"TanLight"
 
-		if_mvm
+		if_vip
 		{
 			"visible"	"0"
 		}
@@ -245,7 +245,7 @@
 		"paintbackgroundtype" "0"
 		"bgcolor_override"	"TanLight"
 
-		if_mvm
+		if_vip
 		{
 			"visible"	"0"
 		}
@@ -272,7 +272,7 @@
 		"paintbackgroundtype" "0"
 		"bgcolor_override"	"TanLight"
 
-		if_mvm
+		if_vip
 		{
 			"visible"	"0"
 		}
@@ -297,7 +297,7 @@
 		"enabled"		"1"
 		"bgcolor_override"	"G_TeamBlueBG"
 
-		if_mvm
+		if_vip
 		{
 			"visible"	"0"
 		}
@@ -375,7 +375,7 @@
 		"paintbackgroundtype" "0"
 		"bgcolor_override"	"G_TeamRed"
 
-		if_mvm
+		if_vip
 		{
 			"visible"	"0"
 		}
@@ -694,10 +694,11 @@
 			"visible"	"0"
 		}
 
-		"if_mvm"
+		"if_vip"
 		{
-			"ypos"	"r77"
+			"xpos"	"cs-0.5"
 		}
+
 	}
 
 	"RedFlag"
