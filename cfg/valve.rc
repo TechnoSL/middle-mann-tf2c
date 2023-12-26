@@ -7,7 +7,7 @@ exec autoexec.cfg
 // Stuff command line statements
 stuffcmds
 
-// Display the startup level
+// Display the startup level (this breaks for some reason dont uncomment)
 //startupmenu
 
 // Apply HUD settings
