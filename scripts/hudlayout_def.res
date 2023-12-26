@@ -98,9 +98,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"cs-0.5" [$WIN32]
-		"ypos"				"275" [$WIN32]
-		"xpos"				"r112" [$X360]
-		"ypos"				"r45" [$X360]
+		"ypos"				"c25" [$WIN32]
 		"zpos"				"1"
 		"wide"				"50"
 		"tall"				"6"
@@ -203,7 +201,7 @@
 	{
 		"fieldName"					"CHudAccountPanel"
 		"xpos"						"c-38"
-		"ypos"						"c68"
+		"ypos"						"c31"
 		"ypos_minbad"				"r134"
 		"zpos"						"1"
 		"wide"						"116"
@@ -259,7 +257,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"285"
+		"ypos"		"275"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		//"tall_minbad"	 	"28"
@@ -302,7 +300,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"335"
+		"ypos"		"33"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		//"tall_minbad"	 	"28"
@@ -1038,9 +1036,9 @@
 		"fieldName"			"HudDemomanPipes"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-44"
+		"xpos"				"cs-0.5"
 		"xpos_minbad"		"r110"
-		"ypos"				"c74"
+		"ypos"				"c78"
 		"ypos_minbad"		"r30"
 		"wide"				"100"
 		"tall"				"500"
