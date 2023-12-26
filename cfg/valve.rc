@@ -8,9 +8,8 @@ exec autoexec.cfg
 stuffcmds
 
 // Display the startup level
-startupmenu
-sv_unlockedchapters 99
+//startupmenu
 
 // Apply HUD settings
 cl_hud_minmode 0 // minmode isnt supported yet!!
-vgui_cache_res_files 0 // makes it easier to edit the HUD
+vgui_cache_res_files 1 // change this to 0 to make HUD editing easier
