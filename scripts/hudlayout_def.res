@@ -300,7 +300,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"33"
+		"ypos"		"r112"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		//"tall_minbad"	 	"28"
