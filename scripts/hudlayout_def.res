@@ -1036,7 +1036,7 @@
 		"fieldName"			"HudDemomanPipes"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"cs-0.5"
+		"xpos"				"c-45"
 		"xpos_minbad"		"r110"
 		"ypos"				"c78"
 		"ypos_minbad"		"r30"

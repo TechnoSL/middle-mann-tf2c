@@ -35,6 +35,8 @@
 		"scaleImage"	"1"
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
+		"teambg_4"		"../hud/color_panel_grn"
+		"teambg_5"		"../hud/color_panel_ylw"
 		"alpha" 		"255"
 
 		"src_corner_height"		"23"				// pixels inside the image
@@ -43,7 +45,7 @@
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"
 	}
-	   "MeterBG2"
+	"MeterBG2"
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"MeterBG2"

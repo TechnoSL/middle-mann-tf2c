@@ -18,11 +18,11 @@
 		"ControlName"	"CircularProgressBar"
 		"fieldName"	"ProgressBar"
 		"proportionaltoparent" "1"
-		"xpos"    "cs-0.5"
-		"ypos"		"c210" //c-60 for crosshair centered c-30 for upper right
+		"xpos"    "c17"
+		"ypos"		"c150" //c-60 for crosshair centered c-30 for upper right
 		"zpos"		"0"
-		"wide"		"22"
-		"tall"		"22"
+		"wide"		"44"
+		"tall"		"44"
 		"pinCorner"	"0"
 		"visible"	"1"
 		"enabled"	"1"
@@ -47,7 +47,7 @@
 		"icon"		"cappoint_progressbar_teardrop"
 		"iconColor"	"255 255 255 255"
 	}
-	
+
 	"TeardropSide"
 	{
 		"ControlName"	"CIconPanel"
@@ -65,12 +65,12 @@
 	}
 
 	"ProgressText"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"ProgressText"
 		"font"			"FontStorePrice"//"DefaultSmall"
 		"xpos"			"c104"
-		"ypos"			"c16"
+		"ypos"			"c155"
 		"zpos"			"23"
 		"wide"			"64"
 		"tall"			"80"
@@ -89,7 +89,7 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"	"Blocked"
 		"xpos"		"c110"
-		"ypos"		"c30"
+		"ypos"		"c170"
 		"zpos"		"23"
 		"wide"		"50"
 		"tall"		"50"

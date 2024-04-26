@@ -67,8 +67,8 @@
 		"fieldName"		"AmmoInClipShadow"
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"Black"
-		"xpos"			"2"
-		"ypos"			"60"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"ypos_minbad"	"2"
 		"zpos"			"5"
 		"wide"			"84"
@@ -77,6 +77,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"
 		"labelText"		"%Ammo%"
+		"pin_to_sibling"	"AmmoInClip"
 
 	}
 	"AmmoInReserve"

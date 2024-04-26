@@ -25,9 +25,9 @@
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"	"1"
 		"teambg_2"		"../hud/color_panel_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
 		"teambg_3"		"../hud/color_panel_blu"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"
+		"teambg_4"		"../hud/color_panel_grn"
+		"teambg_5"		"../hud/color_panel_ylw"
 
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"

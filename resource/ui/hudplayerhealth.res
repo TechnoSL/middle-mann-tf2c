@@ -27,7 +27,7 @@
 	}
 
 // someone mustve been angry
-
+// tldr: this moves every single debuff icon, eg: marked for death, milked, etc
 	"suckmydickvalve"
 	{
 		"ControlName"	"EditablePanel"
@@ -44,11 +44,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"216"
-		"ypos"			"436"
+		"xpos"			"c-215"
+		"ypos"			"434"
 		"zpos"			"4"
-		"wide"			"14"
-		"tall"			"15"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -57,11 +57,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"213"
-		"ypos"			"433"
+		"xpos"			"c-215"
+		"ypos"			"434"
 		"zpos"			"3"
 		"wide"			"20"
-		"tall"			"21"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
@@ -87,11 +87,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"-4"
-		"ypos"			"-8"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"5"
 		"wide"			"100"
-		"tall"			"40"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
