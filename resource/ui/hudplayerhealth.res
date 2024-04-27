@@ -5,7 +5,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-420"
+		"xpos"			"0"
 		"xpos_minbad"	"0"
 		"ypos"			"0"
 		"ypos_minbad"	"r100"
@@ -27,12 +27,12 @@
 	}
 
 // someone mustve been angry
-// tldr: this moves every single debuff icon, eg: marked for death, milked, etc
+
 	"suckmydickvalve"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"	"suckmydickvalve"
-		"xpos"	"90"
+		"xpos"	"100"
 		"ypos"	"c125"
 		"wide"	"0"
 		"tall"	"0"
@@ -44,11 +44,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"c-215"
-		"ypos"			"434"
+		"xpos"			"c-217"
+		"ypos"			"437"
 		"zpos"			"4"
-		"wide"			"20"
-		"tall"			"20"
+		"wide"			"14"
+		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -57,11 +57,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"c-215"
+		"xpos"			"c-220"
 		"ypos"			"434"
 		"zpos"			"3"
 		"wide"			"20"
-		"tall"			"20"
+		"tall"			"21"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
@@ -71,7 +71,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"223"
+		"xpos"			"c-208"
 		"ypos"			"433"
 		"zpos"			"5"
 		"wide"			"100"
@@ -80,7 +80,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"HudFontGiantBold"
+		"font"			"HudFontGiantBoldSTATS"
 		"fgcolor"		"TanLight"
 	}
 	"PlayerStatusHealthValueShadow"
@@ -96,7 +96,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"HudFontGiantBold"
+		"font"			"HudFontGiantBoldSTATS"
 		"fgcolor"		"Black"
 		pin_to_sibling 	"PlayerStatusHealthValue"
 	}
@@ -104,12 +104,12 @@
 		{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusHealthValueBG"
-		"xpos"			"123"
+		"xpos"			"c-315"
 		"ypos"			"405"
 		"xpos_minbad"	"28"
 		"ypos_minbad"	"7"
 		"zpos"			"1"
-		"wide"			"300"
+		"wide"			"310"
 		"tall"			"150"
 		"visible"		"1"
 		"enabled"		"1"
@@ -349,8 +349,8 @@
 		"pin_to_sibling" "suckmydickvalve"
 		"pin_corner_to_sibling" "1"
 		"pin_to_sibling_corner" "1"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"120"
+		"ypos"			"-170"
 		"zpos"			"7"
 		"wide"			"30"
 		"tall"			"30"
@@ -360,6 +360,7 @@
 		"image"			"../signs/death_wheel_whammy"
 		"fgcolor"		"TanDark"
 	}
+
 
 	"PlayerStatus_SoldierOffenseBuff"
 	{
@@ -679,56 +680,5 @@
 		"zpos"			"7"
 		"wide"			"30"
 		"tall"			"30"
-	}
-	"PlayerStatusCivilianBuff"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusCivilianBuff"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"7"
-		"wide"			"30"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"			"../HUD/civilian_buff_blue"
-		"fgcolor"		"TanDark"
-		"pin_to_sibling" "suckmydickvalve"
-		"pin_corner_to_sibling" "1"
-		"pin_to_sibling_corner" "1"
-	}
-	"LowHpLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"LowHpLabel"
-		"xpos"			"200"
-		"ypos"			"c-210"
-		"zpos"			"5"
-		"wide"			"90"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"LOW HEALTH"
-		"textAlignment"	"center"
-		"font"			"HudFontSmallBold"
-		"fgcolor"		"0 0 0 0"
-	}
-	"LowHpLabelSha"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"LowHpLabelSha"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"5"
-		"wide"			"90"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"LOW HEALTH"
-		"textAlignment"	"center"
-		"font"			"HudFontSmallBold"
-		"fgcolor"		"0 0 0 0"
-		"pin_to_sibling"	"LowHpLabel"
 	}
 }
