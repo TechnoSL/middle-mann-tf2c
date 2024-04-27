@@ -27,7 +27,7 @@
 	}
 
 // someone mustve been angry
-
+// tldr: this moves every single debuff icon, eg: marked for death, milked, etc
 	"suckmydickvalve"
 	{
 		"ControlName"	"EditablePanel"
@@ -680,5 +680,23 @@
 		"zpos"			"7"
 		"wide"			"30"
 		"tall"			"30"
+	}
+	"PlayerStatusCivilianBuff"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusCivilianBuff"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"			"../HUD/civilian_buff_blue"
+		"fgcolor"		"TanDark"
+		"pin_to_sibling" "suckmydickvalve"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 	}
 }
