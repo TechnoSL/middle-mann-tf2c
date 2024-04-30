@@ -71,8 +71,8 @@
 	{
 		"ControlName"				"CExLabel"
 		"proportionaltoparent" "1"
-		"xpos"						"r290"		[$WIN32]
-		"ypos"						"r316"		[$WIN32]
+		"xpos"						"cs-0.5"		[$WIN32]
+		"ypos"						"50"		[$WIN32]
 		"xpos_minmode"				"-8"
 		"ypos_minmode"				"r106"		[$WIN32]
 		"xpos"						"-8"		[$X360]

@@ -1,4 +1,4 @@
-"middlemann"	//base - lionhud tf2c port.
+"middlemann"	//base - lionhud tf2c port. is this even needed for tf2c? keeping it just in case
 {
 	"ui_version"	"3"
 }
