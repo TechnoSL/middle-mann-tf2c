@@ -4,7 +4,7 @@ aka: the unofficial lionhud continuation with some fancier materials
 
 yeah that's about it, refer to [gamebanana page](https://gamebanana.com/mods/467611) for screenshots
 
-this should work as of latest TF2C update (2.1.4) and probably way into the future
+this should work as of latest TF2C update (2.1.5) and probably way into the future
 
 ## credits
 
